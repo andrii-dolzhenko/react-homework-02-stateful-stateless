@@ -63,18 +63,18 @@ ClassCurrentDate      — state + componentDidMount + componentWillUnmount
 
 ## Functional and Class Components
 
-| Aspect | Functional approach | Class approach |
-| --- | --- | --- |
-| Development | Requires less boilerplate and uses hooks | Requires `extends Component`, `render()`, and `this` |
-| Readability | Keeps the logic concise and directly inside the function | Provides an explicit structure but requires more code |
-| State | `useState` returns the value and its update function | State is stored in `this.state` and updated with `this.setState()` |
-| Lifecycle | `useEffect` starts the timer and returns a cleanup function | `componentDidMount()` starts the timer and `componentWillUnmount()` clears it |
+| Aspect      | Functional approach                                         | Class approach                                                                |
+| ----------- | ----------------------------------------------------------- | ----------------------------------------------------------------------------- |
+| Development | Requires less boilerplate and uses hooks                    | Requires `extends Component`, `render()`, and `this`                          |
+| Readability | Keeps the logic concise and directly inside the function    | Provides an explicit structure but requires more code                         |
+| State       | `useState` returns the value and its update function        | State is stored in `this.state` and updated with `this.setState()`            |
+| Lifecycle   | `useEffect` starts the timer and returns a cleanup function | `componentDidMount()` starts the timer and `componentWillUnmount()` clears it |
 
 TaskFlow uses modern functional components for its main application logic. The paired date components reproduce the same behavior, making their syntax, state management, and lifecycle differences directly comparable in the source code.
 
 ## Live Demo
 
-The deployment link will be added after the project is published on Vercel.
+[View TaskFlow on Vercel](https://react-homework-02-stateful-stateles.vercel.app/)
 
 ## Author
 
