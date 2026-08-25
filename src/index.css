@@ -4,8 +4,6 @@
   background: #050505;
   font-synthesis: none;
   text-rendering: optimizeLegibility;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
 }
 
 * {
@@ -28,10 +26,6 @@ body {
 button,
 input {
   font: inherit;
-}
-
-button {
-  -webkit-tap-highlight-color: transparent;
 }
 
 img,
